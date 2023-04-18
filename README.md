@@ -5,10 +5,10 @@ The images of the Sun provide only a 2D representation of the actual 3D solar su
 The Python notebook for the pixel area correction [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Chigaga/area_calculation/blob/main/area_calculation.ipynb)
 
 ### Separate functions: 
-- function to calculate the area of 1 pixel [here](https://colab.research.google.com/github/Chigaga/area_calculation/blob/main/area_calculation.ipynb#scrollTo=K-T0LUOCZ-YY&line=11&uniqifier=1) 
+- to calculate the [area of 1 pixel](https://colab.research.google.com/github/Chigaga/area_calculation/blob/main/area_calculation.ipynb#scrollTo=K-T0LUOCZ-YY&line=11&uniqifier=1) 
 
-- code to calculate the area of the region on the solar disk [here]
+- to calculate the [area of the region on the solar disk] 
 
-- code to create an area map for the full solar disk image [here]
+- to create an [area map for the full solar disk image] 
 
 *A full description of the area calculation method is described in Chikunova et al.2023*
