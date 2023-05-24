@@ -31,7 +31,9 @@ Generates an area correction map for the entire solar disk image. It applies the
 ```
 area_map = create_area_map(smap)
 ```
-
+## License and Usage
+License: This function is released under the __ License. You can find the license file in the root directory of the GitHub repository. 
+If you use our code in your scientific work, we would appreciate citing our research paper in your publications.
 
 ## Contact
 For any further assistance or inquiries, please don't hesitate to reach out!
