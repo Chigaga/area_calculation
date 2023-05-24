@@ -27,7 +27,7 @@ Calculates the total area of a specified rectangle region on the solar disk. It 
 region_area = calculate_region_area(xlim, ylim, smap)
 ```
 - `create_area_map`
-Generates an area correction map for the entire solar disk image. It applies the "calculate_pixel_area" function to each pixel in the image, resulting in a map where each pixel value represents its corresponding area in km2. The function returns the area map as a 2D array.
+Generates an area correction map for the entire solar disk image. It applies the "calculate_pixel_area" function to each pixel in the image, resulting in a map where each pixel value represents its corresponding area in km2. The function returns the area map as a SunpyMap object.
 ```
 area_map = create_area_map(smap)
 ```
