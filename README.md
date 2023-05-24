@@ -1,15 +1,33 @@
-# Correction of the solar disk images for the area calculation
-*A full description of the area calculation method is described in Chikunova et al.2023*
+# Correction of the solar disk images for the area calculation: obtaining sphereical projections of the pixels
 
-The images of the Sun provide only a 2D representation of the actual 3D solar surface. Projection effects lead to the different weights of each pixel, e.g. closer to the limb the pixel area is larger than one closer to the Sun center. Thus, for an accurate definition of the area, we present a method to identify the surface area of a sphere for each pixel.
+# Overview
 
-The Python notebook for the pixel area correction [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Chigaga/area_calculation/blob/main/area_calculation.ipynb)
+This project aims to provide a method for accurately calculating the surface area of the Sun's disk from 2D solar disk images. The 2D representation of the solar surface introduces projection effects, where the weights of pixels vary depending on their proximity to the limb or the center of the Sun. To overcome this limitation, we present a technique to obtain spherical projections of the pixels, enabling precise area calculations for each pixel.
 
-### Separate functions:  TBD
-- to calculate the [area of 1 pixel](https://colab.research.google.com/github/Chigaga/area_calculation/blob/main/area_calculation.ipynb#scrollTo=K-T0LUOCZ-YY&line=11&uniqifier=1) 
+# Method
 
-- to calculate the [area of the region on the solar disk] 
+A detailed description of the area calculation method can be found in the research paper titled "On the three-dimensional relation between the coronal dimming,
+erupting filament and CME: Case study of the 28 October 2021 X1.0 event" by Chikunova et al. (2023). We recommend referring to this paper for a comprehensive understanding of the methodology.
 
-- to create an [area map for the full solar disk image] 
+# Code repository
+The code for performing the pixel area correction can be accessed in the following Python notebook:
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Chigaga/area_calculation/blob/main/area_calculation.ipynb)
+The notebook provides the implementation of various functions necessary for the area calculation process.
 
+## Functions:
+- **calculate_pixel_area**
+This function calculates the area of a single pixel based on its spherical projection. It takes into account the pixel's position in the solar map.  The function returns the calculated area value.
 
+- **calculate_region_area**
+Calculates the total area of a specified rectangle region on the solar disk. It takes the region's boundaries as input and iterates over the pixels within the region to calculate their individual areas. The function returns the total area of the chosen region. This function can be adapted to the region of any shape.
+
+- **`create_area_map`**
+- The `create_area_map` function generates an area correction map for the entire solar disk image. It applies the `calculate_pixel_area` function to each pixel in the image, resulting in a map where each pixel value represents its corresponding area in km2. The function returns the area map as a 2D array.
+
+# Usage
+
+To incorporate these functions into your project, follow these steps:
+1. Import the necessary functions into your Python script or notebook:
+```
+from area_calculation import calculate_pixel_area, calculate_region_area, create_area_map
+```
