@@ -18,32 +18,23 @@ The notebook provides the implementation of various functions necessary for the 
 ## Functions:
 - **calculate_pixel_area**
 This function calculates the area of a single pixel based on its spherical projection. It takes into account the pixel's position in the solar map.  The function returns the calculated area value.
-
-- **calculate_region_area**
-Calculates the total area of a specified rectangle region on the solar disk. It takes the region's boundaries as input and iterates over the pixels within the region to calculate their individual areas. The function returns the total area of the chosen region. This function can be adapted to the region of any shape.
-
-- **create_area_map**
-- The "create_area_map" function generates an area correction map for the entire solar disk image. It applies the "calculate_pixel_area" function to each pixel in the image, resulting in a map where each pixel value represents its corresponding area in km2. The function returns the area map as a 2D array.
-
-# Usage
-
-To incorporate these functions into your project, follow these steps:
-1. Import the necessary functions into your Python script or notebook:
-```
-from area_calculation import calculate_pixel_area, calculate_region_area, create_area_map
-```
-2. Use the functions as required in your project. For example, to calculate the area of a specific pixel:
 ```
 pixel_area = calculate_pixel_area(pixel_coords,smap)
 ```
-or to create an area map for a solar disk image:
+- **calculate_region_area**
+Calculates the total area of a specified rectangle region on the solar disk. It takes the region's boundaries as input and iterates over the pixels within the region to calculate their individual areas. The function returns the total area of the chosen region. This function can be adapted to the region of any shape.
+```
+region_area = calculate_region_area(xlim, ylim, smap)
+```
+- **create_area_map**
+- The "create_area_map" function generates an area correction map for the entire solar disk image. It applies the "calculate_pixel_area" function to each pixel in the image, resulting in a map where each pixel value represents its corresponding area in km2. The function returns the area map as a 2D array.
 ```
 area_map = create_area_map(smap)
 ```
 
 
+# Contact
 For any further assistance or inquiries, please don't hesitate to reach out!
 
-# Contact
-Galina Chikunova
+*Galina Chikunova*
 galina.chikunova@skoltech.ru
