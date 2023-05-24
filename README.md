@@ -13,7 +13,7 @@ erupting filament and CME: Case study of the 28 October 2021 X1.0 event" by Chik
 The code can be accessed in the following Python notebook:
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Chigaga/area_calculation/blob/main/area_calculation.ipynb)
  
-The notebook provides the implementation of various functions necessary for the area calculation process.
+The notebook provides functions necessary for the area calculation process and examples of their implementation.
 
 ## Functions:
 - `calculate_pixel_area`
