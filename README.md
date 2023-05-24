@@ -10,7 +10,7 @@ A detailed description of the area calculation method can be found in the resear
 erupting filament and CME: Case study of the 28 October 2021 X1.0 event" by Chikunova et al. (2023). We recommend referring to this paper for a comprehensive understanding of the methodology.
 
 # Code repository
-The code for performing the pixel area correction can be accessed in the following Python notebook:
+The code can be accessed in the following Python notebook:
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Chigaga/area_calculation/blob/main/area_calculation.ipynb)
  
 The notebook provides the implementation of various functions necessary for the area calculation process.
