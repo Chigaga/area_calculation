@@ -36,7 +36,7 @@ from area_calculation import calculate_pixel_area, calculate_region_area, create
 ```
 pixel_area = calculate_pixel_area(pixel_coords,smap)
 ```
-3.
+or to create an area map for a solar disk image:
 ```
 area_map = create_area_map(smap)
 ```
