@@ -1,4 +1,4 @@
-# Correction of the solar disk images for the area calculation: obtaining sphereical projections of the pixels
+# Calculation of the surface area of a sphere for each pixel
 
 ## Overview
 
