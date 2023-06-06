@@ -16,7 +16,9 @@ We recommend referring to this paper for a comprehensive understanding of the me
 The code can be accessed in the following Python notebook:
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Chigaga/area_calculation/blob/main/area_calculation.ipynb)
  
-The notebook provides functions necessary for the area calculation process and examples of their implementation.
+The notebook provides functions necessary for the area calculation process and examples of their implementation. 
+
+We used [Sunpy open source software package]('https://docs.sunpy.org/en/stable/') to access and process the solar images. We also thank Shantanu Jain for very helpful suggestions for the code development.
 
 ### Functions:
 - `calculate_pixel_area`
@@ -36,7 +38,7 @@ area_map = create_area_map(smap)
 ```
 ## License and Usage
 License: This function is released under the Apache License. You can find the license file in the root directory of the GitHub repository. 
-If you use our code in your scientific work, we would appreciate citing our research paper in your publications.
+If you use our code in your scientific work, please, cite our research paper in your publications.
 
 ## Contact
 For any further assistance or inquiries, please don't hesitate to reach out!
