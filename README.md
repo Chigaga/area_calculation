@@ -18,7 +18,7 @@ The code can be accessed in the following Python notebook:
  
 The notebook provides functions necessary for the area calculation process and examples of their implementation. 
 
-We used [Sunpy](https://docs.sunpy.org/en/stable/) open source software package to access and process the solar images. We also thank Shantanu Jain for very helpful suggestions for the code development.
+We used [Sunpy](https://docs.sunpy.org/en/stable/) open-source software package to access and process the solar images. We also thank Shantanu Jain for his helpful suggestions for the code development.
 
 ### Functions:
 - `calculate_pixel_area`
