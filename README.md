@@ -27,7 +27,7 @@ Calculates the area of a single pixel based on its spherical projection. It take
 pixel_area = calculate_pixel_area(pixel_coords,smap)
 ```
 - `calculate_region_area`
-Calculates the total area of a specified rectangle region on the solar disk. It takes the region's boundaries as input and iterates over the pixels within the region to calculate their individual areas. The function returns the total area of the chosen region. This function can be adapted to the region of any shape.
+Calculates the total area of a specified region on the solar disk. It takes the list of regions' coordinates as input and iterates over the pixels within the region to calculate their individual areas. The function returns the total area of the chosen region. This function can be adapted to the region of any shape.
 ```
 region_area = calculate_region_area(xlim, ylim, smap)
 ```
@@ -45,3 +45,9 @@ For any further assistance or inquiries, please don't hesitate to reach out!
 
 *Galina Chikunova*
 galina.chikunova@skoltech.ru
+
+## Contributors
+* Galina Chikunova
+* Tatiana Podladchikova
+* Shantanu Jain
+
