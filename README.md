@@ -6,7 +6,7 @@ This project aims to provide a method for accurately calculating the surface are
 
 ## Method
 
-A detailed description of the area calculation method can be found in the research paper ([Chikunove et al. 2023](https://doi.org/10.1051/0004-6361/202347011))
+A detailed description of the area calculation method can be found in the research paper ([Chikunova et al. 2023](https://doi.org/10.1051/0004-6361/202347011))
 
 *G. Chikunova, T. Podladchokova, K. Dissauer, A.M. Veronig, M. Dumbovic, M. Temmer, E. Dickson, 2023: "Three-dimensional relation between coronal dimming, filament eruption, and CME. A case study of the 28 October 2021 X1.0 event"*. 
 
@@ -38,7 +38,7 @@ area_map = create_area_map(smap)
 ```
 
 ## Acknowledging and usage
-If you use our code in your scientific work, please, cite our research paper in your publication ([Chikunove et al. 2023](https://doi.org/10.1051/0004-6361/202347011)).
+If you use our code in your scientific work, please, cite our research paper in your publication ([Chikunova et al. 2023](https://doi.org/10.1051/0004-6361/202347011)).
 
 ## License
 License: This function is released under the Apache License. You can find the license file in the root directory of the GitHub repository. 
