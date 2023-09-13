@@ -6,9 +6,9 @@ This project aims to provide a method for accurately calculating the surface are
 
 ## Method
 
-A detailed description of the area calculation method can be found in the research paper 
+A detailed description of the area calculation method can be found in the [research paper](https://doi.org/10.1051/0004-6361/202347011)
 
-*G. Chikunova, T. Podladchokova, K. Dissauer, A.M. Veronig, M. Dumbovic, M. Temmer, E. Dickson, 2023, submitted: "On the three-dimensional relation between the coronal dimming, erupting filament and CME: Case study of the 28 October 2021 X1.0 event"*. 
+*G. Chikunova, T. Podladchokova, K. Dissauer, A.M. Veronig, M. Dumbovic, M. Temmer, E. Dickson, 2023: "Three-dimensional relation between coronal dimming, filament eruption, and CME. A case study of the 28 October 2021 X1.0 event"*. 
 
 We recommend referring to this paper for a comprehensive understanding of the methodology.
 
