@@ -38,7 +38,10 @@ area_map = create_area_map(smap)
 ```
 
 ## Acknowledging and usage
-If you use our code in your scientific work, please, cite our research paper in your publication ([Chikunova et al. 2023](https://doi.org/10.1051/0004-6361/202347011)).
+
+If you use or reference the work presented in this repository, please cite the following paper:
+
+> Chikunova, G., Podladchikova, T., Dissauer, K., Veronig, A. M., Dumbović, M., Temmer, M., & Dickson, E. C. M. (2023). Three-dimensional relation between coronal dimming, filament eruption, and CME - A case study of the 28 October 2021 X1.0 event. *Astronomy & Astrophysics*, 678, A166. DOI: [10.1051/0004-6361/202347011](https://doi.org/10.1051/0004-6361/202347011)
 
 ## License
 License: This function is released under the Apache License. You can find the license file in the root directory of the GitHub repository. 
